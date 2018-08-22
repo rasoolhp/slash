@@ -1,0 +1,115 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* overflow:hidden; */
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: #1d1d1d;
+    padding: 20px 20px 50px 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-container {
+    max-width: 80%;
+    margin: auto;
+}
+
+header, section {
+    position: relative;
+    background-color: white;
+    padding: 30px;
+}
+
+header {
+    height: 100px;
+    background-color: transparent;
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    margin: 0 5px;
+    font-size: 18pt;
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+p a {
+    color: orangered;
+    font-weight: 700;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+span {
+    background-color: orangered;
+    color: white!important;
+    font-size: 24pt;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orangered!important;
+}
+
+.header-title {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: auto;
+    font-size: 48pt;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+h1::before, h3::before {
+    content: "💖";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    color: #1d1d1d;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+footer {
+    margin: 15px 5px 0 5px;
+    color: white;
+}
